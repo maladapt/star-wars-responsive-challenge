@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+.col-4 {
+	width: 33%;
+	margin-left: 0.165%;
+	margin-right: 0.165%;
+}
+
+*[class^='col-']{
+    float: left;
+}
+
+@media screen and (max-width: 640px) {
+	.col-12, .col-4 {
+		width: 100%;
+	}
+}
